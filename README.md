@@ -1,38 +1,48 @@
-🧠 Multimodal Brain Tumor Classification using Deep Learning
+# 🧠 Multimodal Brain Tumor Classification using Deep Learning
 
-An AI-powered healthcare analytics project that combines RNA-Seq Gene Expression 🧬 and MRI Imaging Features 🩻 for intelligent brain tumor classification using Multimodal Deep Learning.
+An AI-powered healthcare analytics project that combines **RNA-Seq Gene Expression** 🧬 and **MRI Imaging Features** 🩻 for intelligent brain tumor classification using **Multimodal Deep Learning**.
 
 The system predicts whether a tumor belongs to:
 
-🔹 LGG (Low Grade Glioma)
-🔹 GBM (Glioblastoma Multiforme)
+- 🔹 **LGG (Low Grade Glioma)**
+- 🔹 **GBM (Glioblastoma Multiforme)**
 
 along with prediction confidence scores 📊.
 
-🚀 Project Overview
-This project implements a complete Multimodal Deep Learning Pipeline involving:
+---
 
-✅ Gene Expression Preprocessing
-✅ Normalization & Scaling
-✅ Dimensionality Reduction
-✅ Deep Autoencoder-based Latent Feature Extraction
-✅ MRI Feature Processing
-✅ Early Fusion
-✅ Deep Neural Network (DNN/MLP) Classification
-✅ Streamlit-based Frontend Visualization
+# 🚀 Project Overview
+
+This project implements a complete **Multimodal Deep Learning Pipeline** involving:
+
+- ✅ Gene Expression Preprocessing
+- ✅ Normalization & Scaling
+- ✅ Dimensionality Reduction
+- ✅ Deep Autoencoder-based Latent Feature Extraction
+- ✅ MRI Feature Processing
+- ✅ Early Fusion
+- ✅ Deep Neural Network (DNN/MLP) Classification
+- ✅ Streamlit-based Frontend Visualization
 
 The project demonstrates how genomic and imaging modalities can be combined to improve intelligent healthcare diagnostics.
 
-🧬 Technologies Used
-Python
-TensorFlow / Keras
-Scikit-learn
-Pandas
-NumPy
-Matplotlib
-Streamlit
+---
 
-📂 Project Structure
+# 🧬 Technologies Used
+
+- Python
+- TensorFlow / Keras
+- Scikit-learn
+- Pandas
+- NumPy
+- Matplotlib
+- Streamlit
+
+---
+
+# 📂 Project Structure
+
+```bash
 TCGA_GBM_LGG_GeneExpression/
 │
 ├── code/
@@ -54,8 +64,13 @@ TCGA_GBM_LGG_GeneExpression/
 │
 ├── README.md
 └── requirements.txt
+```
 
-⚙️ Workflow
+---
+
+# ⚙️ Workflow
+
+```text
 RNA-Seq Data
 ↓
 Preprocessing & Normalization
@@ -77,31 +92,53 @@ Combined Multimodal Features
 DNN / MLP Classifier
 ↓
 LGG vs GBM Prediction
+```
 
-🧠 Deep Learning Components
-🔹 Deep Autoencoder
+---
+
+# 🧠 Deep Learning Components
+
+## 🔹 Deep Autoencoder
 Used for learning compressed latent genomic representations from high-dimensional gene expression data.
 
-🔹 Early Fusion
+## 🔹 Early Fusion
 Combines genomic latent features and MRI features into a single multimodal feature vector.
 
-🔹 DNN / MLP Classifier
+## 🔹 DNN / MLP Classifier
 Classifies tumors using fused multimodal features with ReLU and Sigmoid activation functions.
 
-📊 Features
-Brain tumor prediction
-Confidence score generation
-Interactive Streamlit frontend
-Multimodal healthcare analytics
-Deep learning-based genomic feature extraction
+---
 
-▶️ Run the Project
-Install Dependencies
+# 📊 Features
+
+- Brain tumor prediction
+- Confidence score generation
+- Interactive Streamlit frontend
+- Multimodal healthcare analytics
+- Deep learning-based genomic feature extraction
+
+---
+
+# ▶️ Run the Project
+
+## Install Dependencies
+
+```bash
 pip install -r requirements.txt
-Run Streamlit App
-streamlit run app.py
+```
 
-📌 Dataset Sources
-TCGA (The Cancer Genome Atlas)
-GDC Portal
-TCIA MRI Metadata
+## Run Streamlit App
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# 📌 Dataset Sources
+
+- TCGA (The Cancer Genome Atlas)
+- GDC Portal
+- TCIA MRI Metadata
+
+---
